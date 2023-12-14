@@ -19,6 +19,24 @@ This board is a simple Front Panel replacement for ATX motherboards that allows 
 
 
 
+## Bill Of Materials
+
+| Designator(s) | Part Number             | Quantity | Value   | Footprint                         | Availability                                                                                                |
+| ------------- | ----------------------- | -------- | ------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| C1            | 860010674014            |        1 | 100uF   | C_Radial_D8.0mm_H11.5mm_P3.50mm   | [DigiKey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010674014/5726913)            |
+| C2            | 860010374011            |        1 | 330uF   | C_Radial_D8.0mm_H11.5mm_P3.50mm   | [DigiKey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010374011/5726852)            |
+| C3            | 860020274013            |        1 | 680uF   | C_Radial_D8.0mm_H11.5mm_P3.50mm   | [DigiKey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860020274013/5727150)            |
+| C4            | 860010274015            |        1 | 1000uF  | C_Radial_D8.0mm_H11.5mm_P3.50mm   | [DigiKey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010274015/5726956)            |
+| SW1, SW2      | TS02-66-60-BK-100-LCR-D |        2 | N/A     | SW_PUSH_6mm                       | [DigiKey](https://www.digikey.com/en/products/detail/cui-devices/TS02-66-60-BK-100-LCR-D/15634327)          |
+| J1            | PREC005DBAN-M71RC       |        1 | N/A     | PinSocket_2x05_P2.54mm_Horizontal | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PREC005DBAN-M71RC/2775649) |
+| J2            | PPTC052LJBN-RC          |        1 | N/A     | PinHeader_2x05_P2.54mm_Horizontal | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC052LJBN-RC/775977)     |
+| J3            | 9-146257-0-04           |        1 | N/A     | PinHeader_2x04_P2.54mm_Vertical   | [DigiKey](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/9-146257-0-04/1165365)  |
+| D1            | C503B-RAN-CZ0C0AA2      |        1 | RED     | LED_D5.0mm                        | [DigiKey](https://www.digikey.com/en/products/detail/creeled-inc/C503B-RAN-CZ0C0AA2/6561762)                |
+| D2            | LTL-4234                |        1 | GREEN   | LED_D5.0mm                        | [DigiKey](https://www.digikey.com/en/products/detail/liteon/LTL-4234/200373)                                |
+| R1, R2, R3    | CF14JT220R              |        1 | 220-Ohm | R_Axial_DIN0207_L6.3mm_D2.5mm     | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220R/1741346)          |
+
+
+
 ## Theory of Operation
 
 ![Delay Motherboard Boot Using RESET Capacitor](img/Delay_Boot_Using_Capacitor.jpg)
