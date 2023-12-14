@@ -2,11 +2,9 @@
 
 # ATX Boot Delay
 
-Power-On Boot Delay for ATX Motherboards with 9-Pin Front Panel Header.
-
 Delaying BIOS boot is a simple trick that solves some PCIe issues. You can do this by pressing the POWER button, then pressing and holding the RESET button for a second before releasing it. Or, connect a capacitor across the reset pins of an ATX motherboard's [Front Panel Header](https://www.intel.com/content/www/us/en/support/articles/000007309/intel-nuc.html).
 
-This board is a simple Front Panel replacement that allows choosing capacitor(s) to connect accross the RESET pins and delay boot.
+This board is a simple Front Panel replacement for ATX motherboards that allows choosing capacitor(s) to connect accross the RESET pins and delay boot.
 
 
 

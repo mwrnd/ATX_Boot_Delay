@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/home/user/0PCB/ATX_Boot_Delay/ATX_Boot_Delay/ATX_Boot_Delay.kicad_sch")
+    (source "ATX_Boot_Delay.kicad_sch")
     (date "Wed 13 Dec 2023 10:38:32 PM")
     (tool "Eeschema 7.0.9-7.0.9~ubuntu20.04.1")
     (sheet (number "1") (name "/") (tstamps "/")
