@@ -34,6 +34,7 @@ This board is a simple Front Panel replacement for ATX motherboards that allows 
 | D1            | C503B-RAN-CZ0C0AA2      |        1 | RED     | LED_D5.0mm                        | [DigiKey](https://www.digikey.com/en/products/detail/creeled-inc/C503B-RAN-CZ0C0AA2/6561762)                |
 | D2            | LTL-4234                |        1 | GREEN   | LED_D5.0mm                        | [DigiKey](https://www.digikey.com/en/products/detail/liteon/LTL-4234/200373)                                |
 | R1, R2, R3    | CF14JT220R              |        1 | 220-Ohm | R_Axial_DIN0207_L6.3mm_D2.5mm     | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220R/1741346)          |
+| Jumpers       | QPC02SXGN-RC            |        4 | N/A     | N/A                               | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262)      |
 
 
 
