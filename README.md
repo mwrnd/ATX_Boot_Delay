@@ -1,14 +1,27 @@
-**Work-In-Progress**: [Gerbers complete](https://github.com/mwrnd/ATX_Boot_Delay/releases/tag/v0.1-alpha) but not yet ordered.
-
 # ATX Boot Delay
 
-Delaying BIOS boot is a simple trick that solves some PCIe issues. You can do this by pressing the POWER button, then pressing and holding the RESET button for a second before releasing it. Or, connect a capacitor across the reset pins of an ATX motherboard's [Front Panel Header](https://www.intel.com/content/www/us/en/support/articles/000007309/intel-nuc.html).
+Delaying BIOS boot is a simple trick that solves some PCIe issues. You can do this by toggling a computer's POWER button, then pressing and holding the RESET button for a second before releasing it. Or, connect a capacitor across the reset pins of an ATX motherboard's [Front Panel Header](https://www.intel.com/content/www/us/en/support/articles/000007309/intel-nuc.html).
 
 This board is a simple Front Panel replacement for ATX motherboards that allows choosing capacitor(s) to connect accross the RESET pins and delay boot.
+
+![ATX Boot Delay Board](img/ATX_Boot_Delay.jpg)
+
+
+
+## Usage Example
+
+Here is an example of its use:
+
+![ATX Boot Delay Board in a System](img/innova2_xdma_opencapi_with_3M_Cable.jpg)
+
+Close-up:
+
+![ATX Boot Delay Board in a System Closeup](img/ATX_Boot_Delay_In-System.jpg)
 
 
 
 ## PCB Layout
+
 ![ATX Boot Delay Board PCB Layout](img/ATX_Boot_Delay_PCB_Layout.png)
 
 
@@ -40,7 +53,7 @@ This board is a simple Front Panel replacement for ATX motherboards that allows 
 
 ## Theory of Operation
 
-![Delay Motherboard Boot Using RESET Capacitor](img/Delay_Boot_Using_Capacitor.jpg)
+![Delay Motherboard Boot Using RESET Capacitor](img/Delay_Boot_Using_FrontPanelHeader_Capacitor.jpg)
 
 The capacitor across RESET works thanks to an [RC Delay](https://en.wikipedia.org/wiki/RC_time_constant) on the reset signal buffer. The [OpenCompute](https://en.wikipedia.org/wiki/Open_Compute_Project) project has a public schematic and the RESET Button is on Pg#151 in *Project_Olympus_Intel_XSP_Schematics_20171016.pdf* found in [`Project_Olympus_Intel_XSP_Collateral.zip`](http://files.opencompute.org/oc/public.php?service=files&t=e969672c57d6e17647adea54f2c3e5a7&download).
 
