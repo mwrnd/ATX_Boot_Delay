@@ -6,11 +6,11 @@ This board is a simple 9-Pin Front Panel replacement for ATX motherboards that a
 
 ![ATX Boot Delay Board](img/ATX_Boot_Delay.jpg)
 
+To use the RESET button on the board, hold it long enough to overcome the capacitor discharge delay which can be a couple of seconds.
+
 
 
 ## Usage Example
-
-Here is an example of its use:
 
 ![ATX Boot Delay Board in a System](img/innova2_xdma_opencapi_with_3M_Cable.jpg)
 
