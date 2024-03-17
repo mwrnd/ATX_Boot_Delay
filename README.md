@@ -2,7 +2,7 @@
 
 Delaying a motherboard's BIOS/UEFI boot is a simple trick that solves issues related to the [PCIe Specification's 100ms time limit](https://pcisig.com/specifications/ecr_ecn_process?speclib=100+ms). This can be done by toggling a computer's POWER button, then pressing and holding the RESET button for a second before releasing it. Or, connect a capacitor across the reset pins of an ATX motherboard's [Front Panel Header](https://www.intel.com/content/www/us/en/support/articles/000007309/intel-nuc.html).
 
-This board is a simple 9-Pin Front Panel replacement for ATX motherboards that allows choosing capacitor(s) to connect accross the RESET pins and delay boot.
+This board is a simple 9-Pin Front Panel Header in-line replacement for ATX motherboards that allows choosing capacitor(s) to connect accross the RESET pins to delay boot.
 
 ![ATX Boot Delay Board](img/ATX_Boot_Delay_v1.0.jpg)
 
