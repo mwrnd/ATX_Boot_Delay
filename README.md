@@ -4,7 +4,7 @@ Delaying a motherboard's BIOS/UEFI boot is a simple trick that solves issues rel
 
 This board is a simple 9-Pin Front Panel replacement for ATX motherboards that allows choosing capacitor(s) to connect accross the RESET pins and delay boot.
 
-![ATX Boot Delay Board](img/ATX_Boot_Delay.jpg)
+![ATX Boot Delay Board](img/ATX_Boot_Delay_v1.0.jpg)
 
 To use the RESET button on the board, hold it long enough to overcome the capacitor discharge delay which can be a couple of seconds.
 
@@ -22,13 +22,13 @@ Close-up:
 
 ## PCB Layout
 
-![ATX Boot Delay Board PCB Layout](img/ATX_Boot_Delay_PCB_Layout.png)
+![ATX Boot Delay Board PCB Layout](img/ATX_Boot_Delay_PCB_Layout_v1.0.png)
 
 
 
 ## Schematic
 
-![ATX Boot Delay Board Schematic](img/ATX_Boot_Delay_Schematic.png)
+![ATX Boot Delay Board Schematic](img/ATX_Boot_Delay_Schematic_v1.0.png)
 
 
 
